@@ -2,12 +2,14 @@
  * @Description:
  * @Author: Eden
  * @Date: 2022-12-26 16:17:11
- * @LastEditTime: 2022-12-26 16:55:19
+ * @LastEditTime: 2022-12-26 17:39:45
  * @LastEditors: Eden
  */
+import React from 'react'
 import ReactDOM from 'react-dom/client'
 import './index.css'
 import reportWebVitals from './reportWebVitals'
+import App from './App'
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
 root.render(

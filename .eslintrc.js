@@ -2,7 +2,7 @@
  * @Description:
  * @Author: Eden
  * @Date: 2022-12-23 15:06:57
- * @LastEditTime: 2022-12-26 15:20:15
+ * @LastEditTime: 2022-12-26 17:44:12
  * @LastEditors: Eden
  */
 module.exports = {
@@ -10,7 +10,7 @@ module.exports = {
     browser: true,
     es2021: true
   },
-  extends: ['standard', 'eslint:recommended', 'plugin:prettier/recommended'],
+  extends: ['plugin:react/recommended', 'standard', 'eslint:recommended'],
   overrides: [],
   parserOptions: {
     ecmaVersion: 'latest',
