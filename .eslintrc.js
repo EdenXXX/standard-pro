@@ -10,7 +10,12 @@ module.exports = {
     browser: true,
     es2021: true
   },
-  extends: ['plugin:react/recommended', 'standard', 'eslint:recommended'],
+  extends: [
+    'plugin:react/recommended',
+    'standard',
+    'eslint:recommended',
+    'plugin:prettier/recommended'
+  ],
   overrides: [],
   parserOptions: {
     ecmaVersion: 'latest',

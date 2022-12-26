@@ -2,7 +2,7 @@
  * @Description:
  * @Author: Eden
  * @Date: 2022-12-23 09:50:53
- * @LastEditTime: 2022-12-26 17:53:14
+ * @LastEditTime: 2022-12-26 17:55:10
  * @LastEditors: Eden
  */
 import logo from './logo.svg'
@@ -11,8 +11,7 @@ import React from 'react'
 
 function App() {
   const a = 1
-  let b = 2
-  if (a == 1) console.log('123')
+  if (a === 1) console.log('123')
   return (
     <div className="App">
       <header className="App-header">
