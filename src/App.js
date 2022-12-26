@@ -2,12 +2,11 @@
  * @Description:
  * @Author: Eden
  * @Date: 2022-12-23 09:50:53
- * @LastEditTime: 2022-12-26 15:20:18
+ * @LastEditTime: 2022-12-26 16:53:12
  * @LastEditors: Eden
  */
 import logo from './logo.svg'
 import './App.css'
-import React from 'react'
 
 function App() {
   const a = 1
