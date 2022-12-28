@@ -2,7 +2,7 @@
  * @Description:
  * @Author: Eden
  * @Date: 2022-12-23 15:06:57
- * @LastEditTime: 2022-12-26 17:44:12
+ * @LastEditTime: 2022-12-27 16:33:14
  * @LastEditors: Eden
  */
 module.exports = {
@@ -24,7 +24,6 @@ module.exports = {
   plugins: ['react'],
   rules: {
     // semi: 0,
-
     'prettier/prettier': [
       'off',
       {
