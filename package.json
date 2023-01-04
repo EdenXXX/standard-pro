@@ -59,6 +59,9 @@
     "stylelint-order": "^5.0.0"
   },
   "lint-staged": {
+    "*.{css}": [
+      "stylelint --fix"
+    ],
     "*.{js,jsx,ts,tsx}": [
       "eslint --fix"
     ],
