@@ -2,7 +2,7 @@
  * @Description:
  * @Author: Eden
  * @Date: 2022-12-23 15:06:57
- * @LastEditTime: 2022-12-27 16:33:14
+ * @LastEditTime: 2022-12-30 11:23:20
  * @LastEditors: Eden
  */
 module.exports = {
@@ -11,24 +11,21 @@ module.exports = {
     es2021: true
   },
   extends: [
-    'plugin:react/recommended',
-    'standard',
-    'eslint:recommended',
-    'plugin:prettier/recommended'
+    "plugin:react/recommended",
+    "standard",
+    "eslint:recommended",
+    "plugin:prettier/recommended"
   ],
   overrides: [],
   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module'
+    ecmaVersion: "latest",
+    sourceType: "module"
   },
-  plugins: ['react'],
-  rules: {
-    // semi: 0,
-    'prettier/prettier': [
-      'off',
-      {
-        singleQuote: true
-      }
-    ]
+  plugins: ["react"],
+  rules: {},
+  settings: {
+    react: {
+      version: "detect"
+    }
   }
-}
+};

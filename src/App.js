@@ -2,16 +2,19 @@
  * @Description:
  * @Author: Eden
  * @Date: 2022-12-23 09:50:53
- * @LastEditTime: 2022-12-27 10:19:59
+ * @LastEditTime: 2023-01-04 09:46:39
  * @LastEditors: Eden
  */
-import logo from './logo.svg'
-import './App.css'
-import React from 'react'
+import logo from "./logo.svg";
+import "./App.css";
+import React from "react";
 
 function App() {
-  const a = 1
-  if (a === 1) console.log('1234567')
+  const a = 1;
+  if (a === 1) {
+    console.log("1234567");
+  }
+
   return (
     <div className="App">
       <header className="App-header">
@@ -32,7 +35,7 @@ function App() {
         </a>
       </header>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

@@ -65,9 +65,11 @@
     "*.vue": [
       "eslint --fix"
     ],
-    "*.{html,vue,vss,sass,less}": [
+    "*.{vue,htm,html,css,sss,less,scss,sass}": [
+      "stylelint --fix",
       "prettier --write"
     ],
+    
     "package.json": [
       "prettier --write"
     ],

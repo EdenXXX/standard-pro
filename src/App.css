@@ -7,6 +7,15 @@
   pointer-events: none;
 }
 
+a {
+  font: 1em Arial, Arial, sans-serif;
+}
+
+p {
+  font-weight: 400;
+  font-size: 1rem;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -32,6 +41,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
